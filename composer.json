@@ -1,0 +1,33 @@
+{
+    "name": "nanasess/net_useragent_mobile",
+    "type": "library",
+    "license": "BSD-2-Clause",
+    "description": "Net_UserAgent_Mobile parses HTTP_USER_AGENT strings of (mainly Japanese) mobile HTTP user agents. It'll be useful in page dispatching by user agents.
+This package was ported from Perl's HTTP::MobileAgent.
+See http://search.cpan.org/search?mode=module&query=HTTP-MobileAgent",
+    "authors": [
+        {
+            "name": "KUBO Atsuhiro",
+            "email": "kubo@iteman.jp"
+        },
+        {
+            "name": "Kentaro Ohkouchi",
+            "email": "nanasess@fsm.ne.jp"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Net": "./"
+        }
+    },
+    "require": {
+        "pear/pear-core-minimal": "*"
+    },
+    "require-dev": {
+        "pear/pear": "*"
+    },
+    "support": {
+        "issues": "https://github.com/nanasess/Net_UserAgent_Mobile/issues",
+        "source": "https://github.com/nanasess/Net_UserAgent_Mobile"
+    },
+}
