@@ -18,6 +18,9 @@
             "Net": "./"
         }
     },
+    "include-path": [
+        "./"
+    ],
     "require": {
         "pear/pear-core-minimal": "*"
     },
